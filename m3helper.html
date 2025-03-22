@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>裝備與屬性計算</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>裝備與屬性計算</h1>
+        <p>這裡將會顯示你的裝備與屬性</p>
+    </div>
+
+    <script>
+        const { createApp } = Vue;
+
+        createApp({
+            data() {
+                return {
+                    message: "這是 Vue 的基本結構"
+                };
+            }
+        }).mount("#app");
+    </script>
+</body>
+</html>
