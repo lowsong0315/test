@@ -1,0 +1,16 @@
+[
+    {
+      "type": "頭盔",
+      "options": [
+        { "id": 1, "name": "頭盔A", "attributes": "防禦: 10, 生命: 50" },
+        { "id": 2, "name": "頭盔B", "attributes": "防禦: 15, 生命: 40" }
+      ]
+    },
+    {
+      "type": "衣服",
+      "options": [
+        { "id": 3, "name": "衣服A", "attributes": "防禦: 20, 魔法抗性: 5" },
+        { "id": 4, "name": "衣服B", "attributes": "防禦: 25, 魔法抗性: 3" }
+      ]
+    }
+  ]
