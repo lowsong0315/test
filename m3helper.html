@@ -82,9 +82,37 @@ createApp({
     calculateTotal() {
       // 模擬計算邏輯，將裝備屬性與道具屬性加總
       let attributes = [
-        { name: "防禦", value: 0 },
-        { name: "生命", value: 0 },
-        { name: "魔法抗性", value: 0 }
+      [
+        { name: "最大血量", value: 0, suffix: "" },
+        { name: "最大魔力", value: 0, suffix: "" },
+        { name: "防禦力", value: 0, suffix: "" },
+        { name: "生命恢復", value: 0, suffix: "" },
+        { name: "魔力恢復", value: 0, suffix: "" },
+        { name: "最大血性", value: 0, suffix: "%" },
+        { name: "恢復量", value: 0, suffix: "%" },
+        { name: "傷害減少", value: 0, suffix: "%" },
+        { name: "重力傷害減少", value: 0, suffix: "%" },
+        { name: "攻擊力", value: 0, suffix: "" },
+        { name: "物理攻擊", value: 0, suffix: "" },
+        { name: "魔法攻擊", value: 0, suffix: "" },
+        { name: "暴擊值", value: 0, suffix: "" },
+        { name: "迴避值", value: 0, suffix: "" },
+        { name: "造成的傷害", value: 0, suffix: "%" },
+        { name: "暴擊傷害", value: 0, suffix: "%" },
+        { name: "最終傷害", value: 0, suffix: "%" },
+        { name: "職業增幅", value: 0, suffix: "%" },
+        { name: "冷卻恢復速度", value: 0, suffix: "%" },
+        { name: "魔力減免", value: 0, suffix: "%" },
+        { name: "穿透值", value: 0, suffix: "" },
+        { name: "最大傷害", value: 0, suffix: "" },
+        { name: "意志力", value: 0, suffix: "%" },
+        { name: "洞察力", value: 0, suffix: "%" },
+        { name: "手藝", value: 0, suffix: "%" },
+        { name: "健康", value: 0, suffix: "" },
+        { name: "水量", value: 0, suffix: "" },
+        { name: "疲勞", value: 0, suffix: "" },
+        { name: "掉寶率", value: 0, suffix: "%" }
+    ]
       ];
 
       // 加總選擇的裝備屬性
